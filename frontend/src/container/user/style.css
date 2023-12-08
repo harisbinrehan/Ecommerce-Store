@@ -1,0 +1,40 @@
+.heading {
+  color: rgba(0, 123, 255, 1);
+}
+.arrow-size {
+  min-width: 40px;
+}
+.select-all-main-div {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 930px !important;
+  color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: rgb(156, 154, 154);
+  border: 1px solid #d0d0d0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), inset 0 0 3px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.user-main-page {
+  background-color: rgba(223, 223, 223, 1);
+}
+.empty-state-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  font-size: 34px;
+  color: rgba(0, 123, 255, 1);
+  font-weight: bold;
+  font-style: italic;
+}
+.product-empty-status.empty-state-page {
+  position: absolute;
+  width: 100%;
+}
+.user-table-body {
+      height: calc(100vh - 2.4vh);
+}

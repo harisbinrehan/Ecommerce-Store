@@ -1,0 +1,46 @@
+.login-rectangle {
+  background: var(--global-09-white, #eceaea);
+  width: 50%;
+  padding: 2% 4% 4% 4%;
+  margin: 7% auto 5% auto;
+  border: 1px solid #d0d0d0;
+  box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.2), inset 0 0 3px rgba(0, 0, 0, 0.2);
+}
+.border {
+  background: white;
+  border: 1px solid var(--components-breadcrumb-fill, #e9ecef);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  color: var(--global-01-primary, #007bff);
+  font-family: Inter;
+  font-style: normal;
+  text-align: center;
+}
+.login-fields {
+  width: Fill (544px);
+  height: Hug (27px);
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  /* padding: 2px; */
+}
+
+.login-links {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  margin: 2px 3px;
+  padding: 10px;
+}
+.auth-alert {
+  position: absolute;
+  justify-content: end;
+  right: 0;
+  transform: translate(-30px, 10px);
+  min-width: 25%;
+}
+
+.success-hint {
+  color: green;
+}

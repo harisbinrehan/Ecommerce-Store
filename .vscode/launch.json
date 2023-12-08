@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/qbatch/Desktop/Inhouse",
+      "program": "/Users/qbatch/Desktop/Inhouse/build/Debug/outDebug"
+    }
+  ]
+}

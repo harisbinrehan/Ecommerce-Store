@@ -1,0 +1,178 @@
+.dashboard-main-div {
+  /* width:100%; */
+  background-color: rgba(233, 236, 239, 1);
+}
+.line-chart-text {
+  color: red;
+  padding-left: 25px;
+}
+.dashboard-cart-main-div {
+  background-color: rgba(255, 255, 255, 1);
+  margin: 2px 2px 2px 2px;
+  width: 320px;
+  height: 144px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 1);
+
+  border-radius: 4px;
+  border: 1px;
+}
+.dashboard-line-chart-main-div {
+  background-color: rgba(255, 255, 255, 1);
+  /* padding-left: 100px; */
+}
+.dashboard-line-chart-text {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.dashboard-orders-graph-main-div {
+  background-color: rgba(255, 255, 255, 1);
+  margin-left: 21px;
+}
+.dashboard-orders-graph-text {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.orders-main-div {
+  background-color: rgba(233, 236, 239, 1);
+}
+.orders-rectangle-main-div {
+  width: 320px;
+  height: 80px;
+
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #d0d0d0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), inset 0 0 3px rgba(0, 0, 0, 0.2);
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.orders-rectangle-text {
+  color: rgba(0, 123, 255, 1);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.mark-delivered-div {
+  color: white;
+  background-color: green;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.mark-delivered-arrow {
+  height: 30px;
+}
+
+.mark-as-delivered-div {
+  color: rgb(43, 128, 248);
+  border: 1px solid rgb(43, 128, 248);
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.row-paid-div {
+  background-color: green;
+  border-radius: 25px;
+  padding: 5px 10px;
+  max-width: 65px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.row-unpaid-div {
+  background-color: yellow;
+  border-radius: 25px;
+  padding: 5px 5px;
+  max-width: 65px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.products-header {
+  color: var(--global-01-primary, #007bff);
+  font-family: Inter;
+  font-size: 24px;
+}
+.table-header {
+  color: var(--text-01-body, #212529);
+}
+.product-text {
+  color: var(--components-forms-input-text, #495057);
+  font-family: Inter;
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px; /* 150% */
+  max-width: 50px;
+}
+.table-body {
+  color: var(--components-forms-input-text, #495057);
+  background-color: rgba(233, 236, 239, 1);
+  font-family: Inter;
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px;
+  min-height: 700px;
+  margin-top: 35px;
+}.products-table-body{
+  color: var(--components-forms-input-text, #495057);
+  background-color: rgba(233, 236, 239, 1);
+  font-family: Inter;
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px;
+  min-height: 655px;
+}
+
+.product-table-orders{
+  height: calc(100vh - 59vh);
+      overflow: auto;
+}
+.product-table-wrapper{
+    height: calc(100vh - 43vh);
+    overflow: auto;
+}
+.products-header {
+  color: var(--global-01-primary, #007bff);
+  font-family: Inter;
+  font-size: 24px;
+}
+
+.header-buttons {
+  display: flex;
+  padding-bottom: 24px;
+  margin-left: auto;
+}
+.products-table {
+  background-color: #007bff;
+}
+
+.import-bulk-div {
+  max-width: 1120px !important;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #d0d0d0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), inset 0 0 3px rgba(0, 0, 0, 0.2);
+  padding: 3px;
+  border-radius: 5px;
+}

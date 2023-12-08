@@ -1,0 +1,13 @@
+.sidebar{
+display: flex;
+min-width: 275px;
+flex-direction: column;
+gap: 20px;
+margin-top: 70px;
+}
+
+.arrow{
+max-width: 16px;
+height: 16px;
+color: rgba(108, 117, 125, 1);
+}

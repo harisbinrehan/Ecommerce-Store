@@ -1,0 +1,88 @@
+.size-container {
+  display: flex;
+  border: 1px solid #ccc;
+  justify-content: space-between;
+}
+
+.size {
+  flex: 1;
+  text-align: center;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.square {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+}
+.custom-offcanvas {
+  width: 650px !important;
+  max-height: 100vh !important;
+  overflow: auto !important;
+}
+.upload-image {
+  width: 170px;
+  height: 169px;
+  text-align: center;
+  border: 1px solid var(--components-forms-input-border, #ced4da);
+  border-radius: 4px;
+}
+
+.text-style {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.img-large {
+  width: 50px;
+}
+
+.custom-offcanvas-header {
+  display: flex;
+}
+.offcanvas-body {
+  min-width: 400px !important;
+  min-height: 600px !important;
+}
+.custom-button {
+  min-width: 2px;
+}
+.add-product-header {
+  background-color: rgba(233, 236, 239, 1);
+}
+.image-item {
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.image-container-relative {
+  position: relative;
+}
+
+.delete-button {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 60%;
+  cursor: pointer;
+  font-size: 10px;
+  text-align: center;
+  line-height: 1;
+}
+.square.selected {
+  border: 3px solid #007bff;
+}
+.size.selected {
+  border: 2px solid #007bff;
+}

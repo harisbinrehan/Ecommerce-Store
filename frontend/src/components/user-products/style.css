@@ -1,0 +1,22 @@
+.user-products-main-div {
+  max-width: 700px;
+}
+.product-div {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 1);
+  width: 289px;
+  min-height: 418px;
+  border-radius: 4px;
+  border: 1px;
+}
+.product-div:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 0 0 10px rgba(1, 1, 1, 1);
+}
+.user-product-image {
+  width: 257px;
+  height: 262px;
+  top: 16px;
+  left: 16px;
+}

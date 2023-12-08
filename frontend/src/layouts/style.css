@@ -1,0 +1,9 @@
+.card-overlay {
+  background-color: rgba(233, 236, 239, 1);
+  height: calc(100vh - 50px);
+  overflow: auto;
+}
+.admin-layout-wrapper{
+      height: 100vh !important;
+    BACKGROUND: #e9ecef;
+}
